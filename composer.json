@@ -25,5 +25,7 @@
             "type": "git",
             "url": "https://github.com/sajidunnar/customer_import"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
