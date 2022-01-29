@@ -1,6 +1,6 @@
 {
     "name": "wireit/module-customerimport",
-    "description": "This is module as test for magento 2 developer opportunity",
+    "description": "This is module as test for magento 2 dev purpose",
     "type": "magento2-module",
     "license": "proprietary",
     "version": "1.0.0",
@@ -10,8 +10,7 @@
             "email": "sajidunnar@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
+  "require": {
 
     },
     "autoload": {
