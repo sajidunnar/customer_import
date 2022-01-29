@@ -1,4 +1,4 @@
-## WireIT CustomerImport
+## Custom Import Module Test
 ## Purpose
 Magento Customer import from CLI
 

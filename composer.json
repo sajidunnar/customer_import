@@ -3,6 +3,7 @@
     "description": "This is module as test for magento 2 developer opportunity",
     "type": "magento2-module",
     "license": "proprietary",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Sajid Unar",
