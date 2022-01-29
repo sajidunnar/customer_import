@@ -3,7 +3,6 @@
     "description": "This is module as test for magento 2 dev purpose",
     "type": "magento2-module",
     "license": "proprietary",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Sajid Unar",
@@ -11,7 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": "true",
+    "prefer-stable": true,
     "require": {
 
     },
