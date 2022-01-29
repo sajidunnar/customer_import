@@ -1,0 +1,24 @@
+{
+    "name": "wireit/module-customerimport",
+    "description": "This is module as test for magento 2 developer opportunity",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sajid Unar",
+            "email": "sajidunnar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WireIT\\CustomerImport\\": ""
+        }
+    }
+}
