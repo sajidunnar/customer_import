@@ -12,9 +12,13 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": "true",
-    "require": {
-
-    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sajidunnar/customer_import"
+        }
+    ],
+    "require": {},
     "autoload": {
         "files": [
             "registration.php"
