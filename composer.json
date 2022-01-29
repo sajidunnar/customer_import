@@ -10,7 +10,8 @@
             "email": "sajidunnar@gmail.com"
         }
     ],
-  "require": {
+    "minimum-stability": "dev",
+    "require": {
 
     },
     "autoload": {
