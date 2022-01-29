@@ -19,4 +19,5 @@ Magento Customer import from CLI
     - `php bin/magento setup:upgrade ustomer:import:sample-json --filename`\*
 
 
-
+## Supported
+### Tested on Magento 2.4.3 with php 7.4
