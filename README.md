@@ -21,3 +21,5 @@ Magento Customer import from CLI
 
 ## Supported
 ### Tested on Magento 2.4.3 with php 7.4
+
+composer require wireit/module-customerimport
