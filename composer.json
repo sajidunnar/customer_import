@@ -1,6 +1,6 @@
 {
     "name": "wireit/module-customerimport2",
-    "description": "This is module as test for magento 2 dev purpose",
+    "description": "Magento 2 Customer import from cli",
     "type": "magento2-module",
     "license": "proprietary",
     "authors": [
@@ -29,5 +29,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "version":"2.1.7"
+    "version":"2.1.8"
 }

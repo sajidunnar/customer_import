@@ -18,7 +18,7 @@ use WireIT\CustomerImport\Helper\Utility;
 class CsvProfileCommand extends Command
 {
 
-    const NAME_ARGUMENT = "name";
+    const NAME_ARGUMENT = "filename";
     const NAME_OPTION = "filename";
 
 
@@ -87,7 +87,7 @@ class CsvProfileCommand extends Command
         $this->setName("customer:import:sample-csv");
         $this->setDescription("Import Customer Profile - CSV Format");
         $this->setDefinition([
-            new InputArgument(self::NAME_ARGUMENT, InputArgument::OPTIONAL, "filename"),
+            new InputArgument(self::NAME_ARGUMENT, InputArgument::REQUIRED, "filename"),
             new InputOption(self::NAME_OPTION, "-f", InputOption::VALUE_NONE, "CSV File")
         ]);
         parent::configure();
