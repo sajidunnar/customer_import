@@ -6,7 +6,7 @@ Magento Customer import from CLI
 
 ### Type 1: Composer Installation
 
- - run the command on CLI  `composer require wireit/module-customerimport`
+ - run the command on CLI  `composer require wireit/module-customerimport2`
  - Enable module `php bin/magento module:enable WireIT_CustomerImport` 
  - Apply Module changes to Magento `php bin/magento setup:upgrade`
  - Compile Code to see any errors `php bin/magento s:d:c`
