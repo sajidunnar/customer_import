@@ -54,14 +54,15 @@ class ImportCustomer
     {
 
         try {
-
+            // in future we can use the customer import module 
             $store = $this->storeManager->getStore();
             $websiteId = $this->storeManager->getStore()->getWebsiteId();
             $customer = $this->customerFactory->create();
             $customer->setWebsiteId($websiteId);
-            $customer->loadByEmail($dataRow['emailaddress']);// load customer by email address
+            $customer->loadByEmail($dataRow['emailaddress']);
+            //check if customer exisst 
             if (!$customer->getId()) {
-                //For guest customer create new cusotmer
+               
                 $customer->setWebsiteId($websiteId)
                     ->setStore($store)
                     ->setFirstname($dataRow['fname'])
