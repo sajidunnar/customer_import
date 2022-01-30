@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": "~7.3.0|~7.4.0"
+        "php": "~7.3.0|~7.4.0",
+        "magento/framework": ">=102.0.0"
     },
     "autoload": {
         "files": [
@@ -21,12 +22,12 @@
         }
     },
     "repositories": {
-        "wireit/module-customerimport": {
+        "wireit/module-customerimport2": {
             "type": "git",
             "url": "https://github.com/sajidunnar/customer_import"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "version":"2.1.5"
+    "version":"2.1.6"
 }
