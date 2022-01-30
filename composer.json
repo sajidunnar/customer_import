@@ -1,5 +1,5 @@
 {
-    "name": "wireit/module-customerimport",
+    "name": "wireit/module-customerimport2",
     "description": "This is module as test for magento 2 dev purpose",
     "type": "magento2-module",
     "license": "proprietary",
@@ -27,5 +27,6 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "version":"2.1.0"
 }
